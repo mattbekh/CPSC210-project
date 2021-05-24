@@ -1,0 +1,65 @@
+{
+  "accounts": [
+    {
+      "account": "User1",
+      "password": "password2",
+      "collections": [
+        {
+          "collection_name": "Collection1",
+          "collection_items": [
+            {
+              "type" : "hat",
+              "color": "red",
+              "size": "large"
+            },
+            {
+              "type" : "pants",
+              "color": "Red",
+              "size": "large"
+            },
+            {
+              "type" : "shirt",
+              "color": "blue",
+              "size": "medium"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "account": "User2",
+      "password": "password2",
+      "collections": [
+        {
+          "collection_name": "Collection1",
+          "collection_items": []
+        },
+        {
+          "collection_name": "Collection2",
+          "collection_items": [
+            {
+              "type" : "pants",
+              "color": "Brown",
+              "size": "medium"
+            },
+            {
+              "type" : "shirt",
+              "color": "blue",
+              "size": "small"
+            },
+            {
+              "type" : "shirt",
+              "color": "blue",
+              "size": "large"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "account": "User3",
+      "password": "password3",
+      "collections": []
+    }
+  ]
+}
